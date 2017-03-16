@@ -1,0 +1,148 @@
+/* ==================================744========================== */
+
+@media screen and (max-width: 959px){
+	.container{
+		max-width:  743px;
+		
+	}
+
+/* ==========HEADER============ */
+	header{
+		
+	}
+
+	.header{
+		padding-left: 60px;
+	}
+	
+
+/* ==========main-1============ */
+
+	.main-1{
+		background-position: 72% 32%;
+    background-size: 67%;
+		&__body{
+			justify-content: flex-start;
+			padding-left: 60px;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+		&__img{
+
+			&--mob{
+				display: inline;
+				position: absolute;
+				left: -206px;
+			}
+
+			&--desk{
+				display: none;
+			}
+		}
+
+		&__banner{
+			position: relative;
+			height: 450px;
+			margin: 0 auto;
+			width: 200px;
+		}
+
+		&__right{
+			width: 290px;
+			margin-left: 120px;
+		}
+
+	}
+
+
+/* ==========main-2============ */
+
+	.main-2{
+		&__list{
+			margin: 0;
+		}
+
+		&__item{
+			width:320px;
+		}
+	}
+/* ==========service============ */
+	.service{
+		background-size: 80%;
+		&__list{
+			margin: 0;
+		}
+	}
+
+/* ==========reviews============ */
+	.reviews{
+		.slick-slide{
+			img{
+				//width: auto;
+			}
+			&__photo{
+				width: 168px;
+				height: 168px;
+			}
+		}
+
+		&__text{
+			margin-left: -110px;
+			margin-bottom: 35px;
+		}
+	}
+
+/* ==========scheme============ */
+	.scheme{
+		&__item{
+			&:not(:last-child):before{
+				width: 100px;
+   			right: -73px;
+			}
+		}
+	}
+
+
+
+/* ==========FOOTER============ */
+	footer{
+
+	}
+
+	.footer{
+		margin: 0;
+		margin-top: 65px;
+		
+		&__left{
+			padding-right: 92px;
+		}
+	}
+/* ==============Thank================== */
+
+	.thank{
+		.main-1{
+
+		}
+
+		.btn{
+			margin: 0 auto;
+			margin-top: 0px;
+			max-width: 300px;
+			font-size: 14px;
+
+		}
+
+		&__text{
+			font-size: 20px;
+			padding: 0 10px;
+			bottom: 180px;
+			span{
+				font-size: 18px;
+				display: block;
+			}
+		}
+	}
+
+	
+
+}	

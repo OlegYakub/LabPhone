@@ -1,0 +1,94 @@
+/* ==================================960========================== */
+
+@media screen and (max-width: 1170px){
+	.container{
+		max-width:  940px;
+		
+	}
+
+
+/* ==========main-1============ */
+
+	.main-1{
+		background-position: 68% 2%;
+    background-size: 74%;
+
+		&__body{
+			margin-top: 0;
+			padding-top: 25px;
+			-webkit-box-pack: justify;
+			-webkit-justify-content: center;
+			justify-content: center;
+		}
+		&__img{
+
+			&--mob{
+				display: none;
+				position: absolute;
+				left: -206px;
+			}
+
+			&--desk{
+				display: inline;
+			}
+		}
+
+		&__left{
+			width: auto;
+			padding-left: 0;
+		}
+
+		&__right{
+			margin-bottom: 30px;
+		}
+	}
+
+
+/* ==========main-2============ */
+
+	.main-2{
+		&__list{
+			margin: 0 30px;
+		}
+	}
+
+/* ==========service============ */
+	.service{
+		background-size: 60%;
+		&__list{
+			margin: 0 60px;
+		}
+		
+		&__item{
+			width: 220px;
+		}
+
+	}
+
+/* ==========reviews============ */
+	.reviews{
+		&__text{
+			margin-bottom: 50px;
+			width: 460px;
+			margin-left: -136px;
+		}
+	}
+
+
+/* ==========FOOTER============ */
+	footer{
+
+	}
+
+	.footer{
+		margin: 0 80px;
+		margin-top: 65px;
+		align-items: stretch;
+
+		&__right{
+			padding-left: 90px;
+			margin-right: 0px;
+		}	
+	}
+
+}	
